@@ -5,9 +5,6 @@ input.onButtonPressed(Button.A, function () {
         game.gameOver()
     }
 })
-input.onButtonPressed(Button.B, function () {
-    game.gameOver()
-})
 let sprite: game.LedSprite = null
 sprite = game.createSprite(2, 2)
 basic.forever(function () {
